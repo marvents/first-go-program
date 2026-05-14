@@ -4,6 +4,8 @@
 - [Go](https://go.dev/dl/) installed on your machine
 
 ## Run
-git clone <repo-link>
-cd <repo-folder>
+```bash
+git clone https://github.com/marvents/first-go-program.git
+cd first-go-program
 go run .
+```
