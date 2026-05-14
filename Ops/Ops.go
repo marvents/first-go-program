@@ -33,17 +33,17 @@ func CalcGui(a, b, result *float32, op *string, logs *[]string) {
 	fmt.Scan(op)
 
 	switch *op {
-		case "+":
-			*result = Add(*a, *b)
-		case "-":
-			*result = Subtract(*a, *b)
-		case "*":
-			*result = Multiply(*a, *b)
-		case "/":
-			*result = Divide(*a, *b)
-		default:
-			fmt.Println("Invalid operation")
-			return
+	case "+":
+		*result = Add(*a, *b)
+	case "-":
+		*result = Subtract(*a, *b)
+	case "*":
+		*result = Multiply(*a, *b)
+	case "/":
+		*result = Divide(*a, *b)
+	default:
+		fmt.Println("Invalid operation")
+		return
 	}
 	Logs.LogOperation(*a, *b, *op, *result, logs)
 }
