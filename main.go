@@ -1,35 +1,27 @@
 package main
 
-import "fmt"
-import "program/Ops"
+import (
+	"fmt"
+	"strings" // I learned it from go docs
+	"program/commands"
+)
+
 
 func main() {
-	var (
-		logs         []string
-		a, b, result float32
-		op           string
-		forOps       int
-	)
 
-	for {
-		fmt.Println("1. Calculator")
-		fmt.Println("2. View Logs")
-		fmt.Println("3. Exit")
-		fmt.Print("Choose an option: ")
-		fmt.Scan(&forOps)
+	program:
+		for {
+			var (
+				cmd string
+			)
 
-		switch forOps {
-		case 1:
-			Ops.CalcGui(&a, &b, &result, &op, &logs)
-			fmt.Printf("result: %.2f\n", result)
-		case 2:
-			fmt.Println(logs)
-		case 3:
-			return
-		default:
-			fmt.Println("Invalid operation")
+			fmt.Print("[SYSTEM]: ")
+			fmt.Scan(&cmd)
+			if cmd == "exit" {
+				fmt.Println("goodbye!")
+				break program
+			}
+			commands.Cmd(strings.ToLower(cmd))
 		}
-		fmt.Println("=====================")
-	}
 
 }
