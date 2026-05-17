@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Marouane",
+    "email": "marouan@proton.me",
+    "password": "$2a$10$JdN.MkUhrOTjgtWJK0.bt.f72G5see4LihnXIVzVzuFGvFyDu9pEq"
+  },
+  {
+    "id": 2,
+    "name": "Marouane",
+    "email": "marouan@proton.me",
+    "password": "$2a$10$aWzWBRa0eBvpDZwDATgnZuMOwDGir3/l8RF5xzxyjJdsK3hA6mDy2"
+  },
+  {
+    "id": 3,
+    "name": "Marouane",
+    "email": "marouan@proton.me",
+    "password": "$2a$10$/ldSq/Ewl1xF50Ul57rhTOvc.DO1dEAFvxvl4rpNyV8P9k.L2anpe"
+  },
+  {
+    "id": 4,
+    "name": "Marouane",
+    "email": "marouan@proton.me",
+    "password": "$2a$10$4gtl3Qc6jwfodBRRVo9.c.9Op0gOBpg7e4qXcxmPn6L8C3DgnsuOi"
+  },
+  {
+    "id": 5,
+    "name": "Marouane",
+    "email": "marouan@proton.me",
+    "password": "$2a$10$0TOkeI2J8AklIKimaDHhI.s9nBSSYDDXrbnsIYWdfPwMwls/8Dkgy"
+  },
+  {
+    "id": 6,
+    "name": "Marouane",
+    "email": "marouan@proton.me",
+    "password": "$2a$10$COk9qW31dlAzKp4vyruRe.w3OGZii/.VLHe4deXptKZt1c15KvS9y"
+  },
+  {
+    "id": 7,
+    "name": "Marouane",
+    "email": "marouan@proton.me",
+    "password": "$2a$10$DCB5bVzbUrkNt8s2NGPM2uRSBx8ORRGgldv.opAoq4l0sjqakp1C2"
+  }
+]
