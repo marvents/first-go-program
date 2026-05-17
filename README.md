@@ -14,12 +14,22 @@ Manage Services with maps.
 git checkout 58fc519cbc7920813f99464bcabf02fc8b544db6
 ```
 
-### v3 — Mini Backend
+### v3 — Mini Backend V1
 Mini backend system with:
 - User registration
 - Login system
 - Posts management
 - Basic relations between users and posts
+
+```bash
+git checkout 14edcf5af9a3e5f08c8f10fcf60bb90dcf6437cf
+```
+
+### v4 — Mini Backend V2
+Mini backend system with the same features as V1, plus:
+- JSON file data persistence
+- Password hashing with bcrypt
+- Data loading and saving
 
 ```bash
 git checkout main
